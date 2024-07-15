@@ -25,7 +25,6 @@ jobs:
       uses: docker/metadata-action@v5
       with:
         context: git
-        images: ${{ env.REGISTRY }}/${{ env.REPO }}/${{ env.IMAGE }}
         flavor: latest=auto
         tags: |
           type=sha,enable=true,priority=100,prefix=,suffix=,format=long
