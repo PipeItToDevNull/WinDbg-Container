@@ -37,7 +37,7 @@ jobs:
         context: .
         push: true
         registry: ${{ env.REGISTRY }}
-        image: ${{ env.REPO }}/${{ env.IMAGE }}
+        image: ${{ env.IMAGE }}
         tags: ${{ steps.meta.outputs.tags }}
         labels: ${{ steps.meta.outputs.labels }}
         dockerfile: Dockerfile
