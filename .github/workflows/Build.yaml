@@ -38,7 +38,7 @@ jobs:
         push: true
         registry: ${{ env.REGISTRY }}
         image: ${{ env.IMAGE }}
-        tags: ${{ steps.meta.outputs.tags }}
+        tags: latest
         labels: ${{ steps.meta.outputs.labels }}
         dockerfile: Dockerfile
         username: ${{ github.actor }}
