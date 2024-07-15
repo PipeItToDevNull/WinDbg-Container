@@ -41,6 +41,6 @@ jobs:
         image: ${{ env.REPO }}/${{ env.IMAGE }}
         tags: ${{ steps.meta.outputs.tags }}
         labels: ${{ steps.meta.outputs.labels }}
-        dockerfile: Dockerfil
+        dockerfile: Dockerfile
         username: ${{ github.actor }}
         password: ${{ secrets.GITHUB_TOKEN }}
