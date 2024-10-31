@@ -11,3 +11,5 @@ ADD https://cdn.discordapp.com/attachments/800196818100551700/129476040658937447
 
 # Install the SDK with only Debugging Tools
 RUN C:\winsdksetup.exe /features OptionId.WindowsDesktopDebuggers /quiet /norestart
+
+LABEL org.opencontainers.image.source https://github.com/PipeItToDevNull/WinDebug-Container
