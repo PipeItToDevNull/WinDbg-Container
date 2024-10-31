@@ -13,3 +13,4 @@ ADD https://cdn.discordapp.com/attachments/800196818100551700/129476040658937447
 RUN C:\winsdksetup.exe /features OptionId.WindowsDesktopDebuggers /quiet /norestart
 
 LABEL org.opencontainers.image.source https://github.com/PipeItToDevNull/WinDebug-Container
+LABEL org.opencontainers.image.description Server Core 2022 containing the Debugging Tools package from Windows SDK
